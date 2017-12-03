@@ -86,7 +86,7 @@ function loadData(url) {
         }]
     };
     var header = new Headers();
-    var apikey = "e506e66a0db2469e94fddfe41df88ffc";
+    var apikey = "INSERT_KEY_HERE";
     // Your server does not currently allow this one
     header.append('Authorization',
      "Key " + apikey);
